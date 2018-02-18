@@ -1,0 +1,63 @@
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Impact;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.content-wrapper {
+  padding: 15px;
+  width: 100vw;
+}
+
+.header-wrapper {
+    background: #bd25b9;
+    color: #ffffff;
+    padding: 20px;
+    width: 100vw;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.v-top {
+    vertical-align: top;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.text-wrapper {
+    padding: 30px;
+}
+
+.img-wrapper {
+    padding: 30px;
+}
+
+.video {
+    height: auto;
+}
+
+
+/*
+@media (max-width: 12450px) {
+
+} */

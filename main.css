@@ -12,6 +12,11 @@ h1 {
     font-size: 50px;
 }
 
+video,
+img {
+    max-width: 100%;
+}
+
 .align-center {
     text-align: center;
 }
@@ -22,7 +27,7 @@ h1 {
 
 .content-wrapper {
   padding: 15px;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 .header-wrapper {
@@ -40,15 +45,12 @@ h1 {
     vertical-align: top;
 }
 
-.w-50 {
-    width: 50%;
-}
-
 .text-wrapper {
     padding: 30px;
 }
 
 .img-wrapper {
+    display: block;
     padding: 30px;
 }
 
@@ -56,8 +58,14 @@ h1 {
     height: auto;
 }
 
+.video--centered {
+    display: block;
+    margin: 0 auto;
+}
 
-/*
-@media (max-width: 12450px) {
 
-} */
+@media (min-width: 768px) {
+    .w-50 {
+        width: 50%;
+    }
+}
